@@ -25,11 +25,11 @@ body {
     width: 800px;
     display: flex;
     flex-direction: column;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .quote-content {
-    margin-top: 50px;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
@@ -150,4 +150,41 @@ body {
     height: 130px;
     border: #3882F6 3px solid;
     border-radius: 10px;
+}
+
+.encouragment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.encouragment-container {
+    margin:50px 0;
+    padding:25px 100px;
+    border-radius: 10px;
+    background-color:#3882F6;
+    color: white;
+    display: flex;
+}
+
+.encouragment-header {
+    font-weight: 900;
+}
+
+.sign-up-2 {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 7px;
+    border:#E5E7EB 2px solid;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+
+.sign-up-2:hover {
+    background-color: #3993A1;
+    cursor: pointer;
 }
